@@ -19,7 +19,7 @@
     };
 </script>
 
-<div>
+<div class="form">
     <h4>{curr1.code} -> {curr2.code}</h4>
     <input class="input-Calc" type="number" min="0" bind:value={amount} />
     <br />

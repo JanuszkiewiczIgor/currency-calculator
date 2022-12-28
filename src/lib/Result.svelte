@@ -8,6 +8,6 @@
     });
 </script>
 
-<div>
+<div class="result">
     <h2>{res}</h2>
 </div>

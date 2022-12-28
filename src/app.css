@@ -60,6 +60,10 @@ body {
     justify-content: center;
 }
 
+.form, .result {
+    font-size: 150%;
+}
+
 .input-Calc {
     padding: 4px;
     font-size: 16px;
