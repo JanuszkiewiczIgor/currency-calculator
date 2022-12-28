@@ -1,5 +1,5 @@
 <script lang="ts">
-    import "./styles/country-list.css";
+    import "./styles/CurrencyList.css";
     import type { IData } from "./interfaces/IData";
     import Item from "./list/Item.svelte";
 
@@ -17,8 +17,6 @@
     };
 </script>
 
-<div>
-    {#each data.rates as rate}
-        <Item {rate} />
-    {/each}
-</div>
+{#each data.rates as rate}
+    <Item {rate} />
+{/each}
