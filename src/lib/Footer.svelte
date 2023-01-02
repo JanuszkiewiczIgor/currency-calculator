@@ -2,7 +2,11 @@
     import "./styles/Footer.css";
     import type { IInfo } from "./interfaces/IInfo";
 
-    export let info: IInfo;
+    export let info: IInfo = {
+        table: "",
+        no: "",
+        effectiveDate: "",
+    };
 </script>
 
 <div>

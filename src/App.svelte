@@ -25,8 +25,8 @@
                 info = {
                     table: data.table,
                     effectiveDate: data.effectiveDate,
-                    no: data.no
-                }
+                    no: data.no,
+                };
             });
     };
 
