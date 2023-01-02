@@ -14,7 +14,7 @@
 
     const setData = (): void => {
         axios
-            .get("http://api.nbp.pl/api/exchangerates/tables/A/?format=JSON")
+            .get("https://api.nbp.pl/api/exchangerates/tables/A/?format=JSON")
             .then((response) => {
                 data = response.data[0];
                 data.rates.push({
