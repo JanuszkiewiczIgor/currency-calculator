@@ -1,0 +1,19 @@
+div.item {
+    width: 100%;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c1c8e4;
+    cursor: pointer;
+}
+
+span.currency {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+span.code {
+    margin-left: 10px;
+    margin-right: 10px;
+}

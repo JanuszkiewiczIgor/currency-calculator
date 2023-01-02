@@ -1,0 +1,13 @@
+div {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+span {
+    float: left;
+    margin-left: 30px;
+}
+
+span.text-white {
+    color: white;
+}
