@@ -9,8 +9,9 @@ body {
     background-color: #5680e9;
 }
 
-.butt-Calc {
-    margin-left: 5px;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
 
 #app {
